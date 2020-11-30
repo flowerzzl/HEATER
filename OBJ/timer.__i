@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE
+-I D:\实验室\我的加热服\heater2\USER\RTE
+-I E:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I E:\MDK5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d "timer.c"
